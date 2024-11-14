@@ -32,7 +32,7 @@ browser.maximize_window()
 
 # Locate the username input field and enter the username
 username = browser.find_element(By.XPATH, '//*[@id="layers"]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[4]/label/div/div[2]/div/input')
-username.send_keys("your usern")
+username.send_keys("your username")
 
 # Locate and click the "Next" button
 next_button = browser.find_element(By.XPATH, '//*[@id="layers"]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/button[2]')
